@@ -1,4 +1,4 @@
-# FPGA UART TX/RX
+# FPGA UART TX/RX w/ Loopback test
 
 UART built with VHDL and tested via loopback with a USB-UART adapter and PuTTY
 
