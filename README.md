@@ -3,7 +3,7 @@
 UART built with VHDL and tested via loopback with a USB-UART adapter and PuTTY
 
 ## Overview
-Two buttons increase/decrease LED brightness via PWM duty cycle control. Built from five modules, clock division, debouncing, duty cycle, PWM generation, and the top level wiring.
+Bytes come in over RX, get shifted into parallel register, then get handed to transmitter to be shifted out on the TX.
 
 ## Architecture
 'uart_rx.vhdl' - Synchronizes the incoming rx line, samples at mid bit, and shifts in a byte.
